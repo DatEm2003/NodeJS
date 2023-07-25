@@ -1,0 +1,45 @@
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-header text-center">
+            <h2>
+                Đăng Ký
+            </h2>
+        </div>
+        <div class="card-body">
+            <form method="POST" action="/user/store">
+            <div class="form-group">
+                    <label for="">Username</label>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="Nhập vào Username">
+                </div>
+                <div class="form-group">
+                    <label for="">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Nhập vào địa chỉ email">
+                </div>
+                <div class="form-group">
+                    <label for="">Password</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Nhập vào địa chỉ password">
+                </div>
+                <div class="form-group">
+                    <label for="">Số Điện Thoại</label>
+                    <input type="number" class="form-control" id="so_dien_thoai" name="so_dien_thoai" placeholder="Nhập vào địa chỉ so_dien_thoai">
+                </div>
+                <div class="form-group">
+                    <label for="">Ngày Sinh</label>
+                    <input type="date" class="form-control" id="ngay_sinh" name="ngay_sinh" placeholder="Nhập vào địa chỉ ngay_sinh">
+                </div>
+                <div class="form-group">
+                    <label for="">Giới tính</label>
+                    <select name="gioi_tinh" id="gioi_tinh">
+                        <option value="1">Giới Tính Nam</option>
+                        <option value="0">Giới Tính Nữ</option>
+                    </select>
+                </div>
+                <div class="form-group text-right">
+                    <button class="btn btn-primary"> Đăng Ký</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
